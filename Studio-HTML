@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOIR STUDIO | Lüks Giyim Koleksiyonu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <div class="ustmenu">
+        <div class="markalogo">
+            <p>NOIR <span>STUDIO</span></p>
+        </div>
+        <div class="menulinkleri">
+            <a href="#">Yeni Gelenler</a>
+            <a href="#">Dış Giyim</a>
+            <a href="#">Ayakkabı</a>
+            <a href="#">Aksesuar</a>
+        </div>
+        <div class="sepetbuton">
+            <p>SEPET (0)</p>
+        </div>
+    </div>
+
+    
+    <div class="vitrinalani">
+        <div class="vitrinicerik">
+            <span class="sezonetiketi">SONBAHAR / KIŞ '26</span>
+            <p class="vitrinbaslik">Karanlığın En Şık Hali.</p>
+            <p class="vitrinaciklama">Sınırlı sayıda üretilen İtalyan kesim kabanlar, ağır gramajlı oversize parçalar ve özel tasarım sneaker koleksiyonu.</p>
+            <a href="#koleksiyon" class="kesfetbutonu">KOLEKSİYONU İNCELE</a>
+        </div>
+    </div>
+
+    
+    <div class="anakapsayici" id="koleksiyon">
+        
+        <div class="bolumust">
+            <p class="bolumbaslik">Öne Çıkan Parçalar</p>
+            <span class="bolumalt">Sınırlı Stok</span>
+        </div>
+
+        <div class="urunizgarasi">
+
+            
+            <div class="urunkarti">
+                
+                <div class="urungorselkapsayici">
+                    <img src="fotolar/kaban.png" alt="Oversize Yün Kaşe Kaban" class="urunresim">
+                    <span class="yenirozet">YENİ</span>
+                </div>
+                <div class="urunbilgi">
+                    <p class="urunkategori">DIŞ GİYİM</p>
+                    <p class="urunadi">Oversize Yün Kaşe Kaban</p>
+                    <p class="urunfiyat">₺6.450</p>
+                    
+                    <div class="bedensecimi">
+                        <label><input type="radio" name="beden1"><span>S</span></label>
+                        <label><input type="radio" name="beden1" checked><span>M</span></label>
+                        <label><input type="radio" name="beden1"><span>L</span></label>
+                        <label><input type="radio" name="beden1"><span>XL</span></label>
+                    </div>
+
+                    <div class="satinalbtn">SEPETE EKLE</div>
+                </div>
+            </div>
+
+            <!-- Ürün 2 -->
+            <div class="urunkarti">
+                <div class="urungorselkapsayici">
+                    <img src="fotolar/deriayakkabı.png" alt="Noir Runner Deri Sneaker" class="urunresim">
+                    <span class="yenirozet">SINIRLI</span>
+                </div>
+                <div class="urunbilgi">
+                    <p class="urunkategori">AYAKKABI</p>
+                    <p class="urunadi">Noir Runner Deri Sneaker</p>
+                    <p class="urunfiyat">₺5.890</p>
+                    
+                    <div class="bedensecimi">
+                        <label><input type="radio" name="beden2"><span>41</span></label>
+                        <label><input type="radio" name="beden2" checked><span>42</span></label>
+                        <label><input type="radio" name="beden2"><span>43</span></label>
+                        <label><input type="radio" name="beden2"><span>44</span></label>
+                    </div>
+
+                    <div class="satinalbtn">SEPETE EKLE</div>
+                </div>
+            </div>
+
+            
+            <div class="urunkarti">
+                <div class="urungorselkapsayici">
+                    <img src="fotolar/hoodie.png" alt="Heavyweight Boxy Hoodie" class="urunresim">
+                </div>
+                <div class="urunbilgi">
+                    <p class="urunkategori">ÜST GİYİM</p>
+                    <p class="urunadi">Heavyweight Boxy Hoodie</p>
+                    <p class="urunfiyat">₺2.750</p>
+                    
+                    <div class="bedensecimi">
+                        <label><input type="radio" name="beden3"><span>S</span></label>
+                        <label><input type="radio" name="beden3"><span>M</span></label>
+                        <label><input type="radio" name="beden3" checked><span>L</span></label>
+                        <label><input type="radio" name="beden3"><span>XL</span></label>
+                    </div>
+
+                    <div class="satinalbtn">SEPETE EKLE</div>
+                </div>
+            </div>
+
+           
+            <div class="urunkarti">
+                <div class="urungorselkapsayici">
+                    <img src="fotolar/pantolon.png" alt="Paraşüt Kesim Kargo Pantolon" class="urunresim">
+                </div>
+                <div class="urunbilgi">
+                    <p class="urunkategori">ALT GİYİM</p>
+                    <p class="urunadi">Paraşüt Kesim Kargo Pantolon</p>
+                    <p class="urunfiyat">₺3.200</p>
+                    
+                    <div class="bedensecimi">
+                        <label><input type="radio" name="beden4"><span>30</span></label>
+                        <label><input type="radio" name="beden4" checked><span>32</span></label>
+                        <label><input type="radio" name="beden4"><span>34</span></label>
+                        <label><input type="radio" name="beden4"><span>36</span></label>
+                    </div>
+
+                    <div class="satinalbtn">SEPETE EKLE</div>
+                </div>
+            </div>
+
+        </div>
+
+        
+        <div class="altbilgi">
+            <p>© 2026 NOIR STUDIO. Tüm hakları saklıdır.</p>
+            <p class="altdetay">Ücretsiz Hızlı Kargo • 30 Gün İade Garantisi • Özel Paketleme</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
